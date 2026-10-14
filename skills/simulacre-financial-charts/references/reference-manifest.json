@@ -1,0 +1,57 @@
+{
+  "schema_version": "0.2.0",
+  "source": "Playwright MCP captures, 2026-10-13 through 2026-10-14",
+  "description": "Seven curated reference images, including two deliberately labeled screenshot fallbacks. Presence/unique hashes do not establish data correctness.",
+  "image_count": 7,
+  "images": [
+    {
+      "file": "global-dxy.png",
+      "status": "CAPTURED_PNG",
+      "sha256": "7ee9dfebc3896cff639210a635ba38fad2db50a97da93c0ee5714ecb321727f6",
+      "width": 1215,
+      "height": 725
+    },
+    {
+      "file": "global-market-heatmap-fallback.png",
+      "status": "FALLBACK_SCREENSHOT",
+      "sha256": "abb94c33abdfccd52dc0e8a092e8c7380e6dd6c663ac7f635a3e39d3c08536e8",
+      "width": 1202,
+      "height": 660
+    },
+    {
+      "file": "russia-carry-trade-monitor.png",
+      "status": "CAPTURED_PNG",
+      "sha256": "e40145ef6bf7b3883574a21e102bea816d3db84b90f934ed0d848f4ff0e32bf7",
+      "width": 1200,
+      "height": 725
+    },
+    {
+      "file": "russia-cpi-mom.png",
+      "status": "CAPTURED_PNG",
+      "sha256": "64d443eed69dbe7701427e0eeef3781c7ba8d16a5563aa35edc208a435532dab",
+      "width": 1200,
+      "height": 738
+    },
+    {
+      "file": "russia-ofz-yield-curve-monitor.png",
+      "status": "CAPTURED_PNG",
+      "sha256": "9e9ae7aacc28c155f927f9ee723b3ec5e29450c63e377f2db5f3dbb0b93c046d",
+      "width": 1215,
+      "height": 658
+    },
+    {
+      "file": "russia-rgbi-ofz-constituents-fallback.png",
+      "status": "FALLBACK_SCREENSHOT",
+      "sha256": "38425274756f569da1512f300f2af076db03876ca86222999a698237199522b9",
+      "width": 1217,
+      "height": 660
+    },
+    {
+      "file": "russia-weekly-cpi.png",
+      "status": "CAPTURED_PNG",
+      "sha256": "e3c76d979f2c36b6eb5abd7ab4e81977f6141d1543467379f2fab22ab39f7cf2",
+      "width": 1200,
+      "height": 725
+    }
+  ]
+}

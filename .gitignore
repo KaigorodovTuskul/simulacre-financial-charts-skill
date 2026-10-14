@@ -1,0 +1,10 @@
+.playwright-mcp/
+.playwright-mcp*.zip
+*.har
+*.trace.zip
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.env.*
+.DS_Store

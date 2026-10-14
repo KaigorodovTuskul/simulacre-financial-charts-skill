@@ -1,4 +1,4 @@
 interface:
   display_name: "Simulacre Financial Charts"
-  short_description: "Design decision-grade financial charts"
-  default_prompt: "Use $simulacre-financial-charts to choose and implement the clearest chart pattern for this financial or macroeconomic dataset."
+  short_description: "Design and validate financial charts"
+  default_prompt: "Use $simulacre-financial-charts to choose a financially faithful chart pattern, render it clearly, and check its data, layout, and export when applicable."

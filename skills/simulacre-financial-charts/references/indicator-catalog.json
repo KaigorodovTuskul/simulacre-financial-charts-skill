@@ -1,0 +1,285 @@
+{
+  "schema_version": "0.2.0",
+  "source": "Simulacre AI portal audit, October 2026",
+  "source_indicator_count": 53,
+  "known_limitation": "Source template family does not necessarily equal active chart tab; verify the actual view.",
+  "indicators": [
+    {
+      "id": "cbonds_key_rate_curve_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "frg100_deposits",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "global_dxy",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line",
+      "curated_reference_png": "global-dxy.png"
+    },
+    {
+      "id": "global_market_heatmap",
+      "source_template_family": "market_heatmap",
+      "recommended_primary_pattern": "market_heatmap",
+      "qualification": "DOM-mode export historically requires fallback",
+      "curated_reference_png": "global-market-heatmap-fallback.png"
+    },
+    {
+      "id": "imoex_market_breadth",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "moex_key_rate_futures",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "moex_rgbi",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "moex_rusfar_curve_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_bank_liquidity_balance",
+      "source_template_family": "delta_bar",
+      "recommended_primary_pattern": "delta_bar"
+    },
+    {
+      "id": "russia_budget_balance_gdp",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_budget_rule_oil_gap",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_business_confidence",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_business_price_expectations",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_capital_flows_by_participant",
+      "source_template_family": "stacked_bar",
+      "recommended_primary_pattern": "stacked_bar"
+    },
+    {
+      "id": "russia_carry_trade_monitor",
+      "source_template_family": "stacked_bar",
+      "recommended_primary_pattern": "stacked_bar_and_line",
+      "qualification": "Multiple additive bar components and rate line",
+      "curated_reference_png": "russia-carry-trade-monitor.png"
+    },
+    {
+      "id": "russia_cbr_repo_auctions",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_cpi_mom",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar",
+      "curated_reference_png": "russia-cpi-mom.png"
+    },
+    {
+      "id": "russia_cpi_saar_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_cpi_yoy",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_forex_intervention",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_fund_flows_monitor",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_fx_reserves",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_fx_share_broad_money",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_industrial_production_yoy",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_inflation_expectations",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_m2_cpi_spread_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_m2_inflation_pressure",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_manufacturing_pmi",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_minfin_fnb_adjustment_est",
+      "source_template_family": "delta_bar",
+      "recommended_primary_pattern": "delta_bar"
+    },
+    {
+      "id": "russia_minfin_fx_actual_flow",
+      "source_template_family": "delta_bar",
+      "recommended_primary_pattern": "delta_bar"
+    },
+    {
+      "id": "russia_minfin_fx_pressure_monitor",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_minfin_fx_regular_flow_est",
+      "source_template_family": "delta_bar",
+      "recommended_primary_pattern": "delta_bar"
+    },
+    {
+      "id": "russia_minfin_nwf_monitor",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_minfin_ofz_auctions",
+      "source_template_family": "stacked_bar",
+      "recommended_primary_pattern": "stacked_bar"
+    },
+    {
+      "id": "russia_monthly_gdp",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_ofz_26243_26233_spread",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_ofz_yield_curve_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "yield_scatter",
+      "qualification": "Active cross-sectional bond view; do not connect as a time series",
+      "curated_reference_png": "russia-ofz-yield-curve-monitor.png"
+    },
+    {
+      "id": "russia_oil_exports_crea",
+      "source_template_family": "stacked_bar",
+      "recommended_primary_pattern": "stacked_bar"
+    },
+    {
+      "id": "russia_ppi_mom",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_ppi_yoy",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_quarterly_gdp",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_real_wage_growth_yoy",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_retail_sales_yoy",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_rgbi_ofz_constituents",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "sortable_instrument_table",
+      "qualification": "Active tab may be table or yield scatter; source template is line",
+      "curated_reference_png": "russia-rgbi-ofz-constituents-fallback.png"
+    },
+    {
+      "id": "russia_ruble_deposit_structure",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_ruble_liquidity",
+      "source_template_family": "delta_bar",
+      "recommended_primary_pattern": "delta_bar"
+    },
+    {
+      "id": "russia_ruonia_rusfar_spread",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_services_pmi",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_tax_period_fx_pressure",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_trade_balance",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_unemployment_rate",
+      "source_template_family": "bar",
+      "recommended_primary_pattern": "bar"
+    },
+    {
+      "id": "russia_usdrub_cross_monitor",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "line"
+    },
+    {
+      "id": "russia_weekly_cpi",
+      "source_template_family": "line",
+      "recommended_primary_pattern": "seasonal_overlay",
+      "qualification": "Observation period aligned by week, not calendar date",
+      "curated_reference_png": "russia-weekly-cpi.png"
+    }
+  ]
+}

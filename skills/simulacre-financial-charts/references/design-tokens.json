@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.2.0",
+  "authority": "reference-png-samples-not-authoritative-css",
+  "sampling_method": "RGB pixel frequency inspection of existing Oct 2026 PNGs; use as measured starting palette, not proof of exact app tokens or accessibility compliance",
+  "surface_context": "light PNG export",
+  "colors": {
+    "background": {
+      "hex": "#F8FAFC",
+      "sample": "global-dxy.png"
+    },
+    "heading": {
+      "hex": "#142033",
+      "sample": "global-dxy.png"
+    },
+    "accent_red": {
+      "hex": "#EF3B31",
+      "sample": "global-dxy.png"
+    },
+    "bar_red": {
+      "hex": "#F16159",
+      "sample": "russia-cpi-mom.png"
+    },
+    "grid_line": {
+      "hex": "#E8ECF1",
+      "sample": "global-dxy.png"
+    },
+    "body_text": {
+      "hex": "#334155",
+      "sample": "global-dxy.png"
+    },
+    "kpi_surface": {
+      "hex": "#FFFAFA",
+      "sample": "global-dxy.png"
+    },
+    "positive_semantic_green": {
+      "hex": "#16A34A",
+      "sample": "russia-ofz-yield-curve-monitor.png",
+      "note": "Numeric positive direction does not imply good economic news."
+    }
+  },
+  "unmeasured": [
+    "typography/family",
+    "typography/size",
+    "line widths",
+    "radiuses",
+    "spacing",
+    "responsive breakpoints",
+    "interactive dark theme"
+  ],
+  "usage": "Prefer confirmed implementation CSS over these estimates; test accessibility and legibility in target contexts."
+}

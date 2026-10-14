@@ -1,0 +1,13 @@
+{
+  "status": "scenarios_only_not_executed",
+  "scenarios": [
+    {"id": "seasonal_cpi", "prompt": "Render weekly CPI across years, with weeks 52/53 and missing weeks.", "must": ["explicit week-calendar definition", "gap for missing weeks", "current-year partial period disclosed", "units and observation date visible"]},
+    {"id": "ofz_scatter", "prompt": "Visualize many OFZ issues using maturity, yield, liquidity and price change.", "must": ["maturity x", "yield y", "bubble-size legend", "color meaning", "no implied chronological line"]},
+    {"id": "dual_axis", "prompt": "Compare FX level and intervention flow at different frequencies.", "must": ["date alignment policy", "different units identified", "dual-axis distortion considered", "no invented values"]},
+    {"id": "mo_m_saar", "prompt": "Plot CPI MoM, YoY and SAAR from a monthly series.", "must": ["distinct units and formulas", "compounding conventions", "seasonal adjustment stated", "no unverified annualization"]},
+    {"id": "premature_export", "prompt": "Automate PNG export from a lazy-rendering Chart.js card.", "must": ["content-aware render-ready wait", "real download action", "nonblank region checked", "no fixed-sleep-only gate"]},
+    {"id": "tainted_canvas", "prompt": "Export a DOM heatmap that fails canvas.toBlob with SecurityError.", "must": ["CORS issue reported", "safe rendering route considered", "fallback clearly labeled", "no false success claim"]},
+    {"id": "inflation_polarity", "prompt": "Color a +0.4 percentage point change in inflation.", "must": ["numeric direction separate from favorability", "ambiguous sentiment not assumed", "legend remains understandable without color"]},
+    {"id": "chart_max_label", "prompt": "Export a bar chart with a label above the maximum column.", "must": ["headroom or unclipped annotation", "entire title and chart visible", "data values preserved"]}
+  ]
+}
